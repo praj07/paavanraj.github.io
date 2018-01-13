@@ -82,38 +82,54 @@
     <!-- Download Section -->
     <section id="download" class="download-section content-section text-center">
       <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Projects</h2>
-          <ul>
-            <li class="list-inline-item">
-              <a class="btn btn-default btn-lg" data-toggle="collapse" href = "#Hex4" role="button" aria-expanded="false" aria-controls="Hex4">Hex V4*</a>
-             <div class="collapse" id="Hex4">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        <h2>Projects</h2>
+        <div class="col-lg-8 mx-auto" id="accordion" role="tablist">
+          <ul class="list-unstyled" id ="projectbtns">
+            <li>
+              <a class="btn btn-default btn-lg collapsed " data-toggle="collapse" href = "#Hex4" role="button" aria-expanded="false" aria-controls="Hex4">Hex V4*</a>
+             <div class="collapse" id="Hex4" role="tabpanel" data-parent="#accordion">
+              <div class="card">
+                <div class ="card-body" id = "projectCard">
+                  <img src="img/Hex-Iso.jpg" class ="cardpic">
+                  <span>HEX V4</span> is a group project that I'm currently working on in Western's Aero Design team. The purpose of HEX is <span>data acquisition</span> for the RC model plane made by the Aero Team. HEX is uses an <span>inertial measurement unit</span> and an on board computer (Raspberry pi) to store data obtained in flight and is <span>controlled using arduino uno</span> as the flight controller. Currently HEX is in the process of being fabricated.  
+                 </div>
                 </div>
               </div>  
             </li>
-            <li class="list-inline-item">
-              <a class="btn btn-default btn-lg" data-toggle="collapse" href = "#Cat-R" role="button" aria-expanded="false" aria-controls="Cat-R">Cat-R*</a>
-              <div class="collapse" id="Cat-R">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            <br>
+            <li>
+              <a class="btn btn-default btn-lg collapsed" data-toggle="collapse" href = "#Cat-R" role="button" aria-expanded="false" aria-controls="Cat-R">Cat-R*</a>
+              <div class="collapse" id="Cat-R"  role="tabpanel" data-parent="#accordion">
+                <div class="card">
+                  <div class= "card-body" id = "projectCard">
+                    <img src="img/CatR-Iso.jpg" class ="cardpic">
+                    <span>Cat-R</span> is a personal project that I've been working on over the summer. It is a <span> quadrapod walking robot </span> that uses an <span>ATMEGA328 microcontroller </span> and an <span>HC05 bluetooth module </span>so that the robot can be controlled remotely. Currently Cat-R is <span>being remodelled</span> to address some issues with the legs and <span>to improve efficiency of walking.</span> 
+                  </div>
                 </div>
               </div>  
             </li>
-            <li class="list-inline-item">
-              <a class="btn btn-default btn-lg" data-toggle="collapse" href = "#Stark" role="button" aria-expanded="false" aria-controls="Stark">Stark</a>
-              <div class="collapse" id="Stark">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            <br>
+            <li>
+              <a class="btn btn-default btn-lg collapsed" data-toggle="collapse" href = "#Stark" role="button" aria-expanded="false" aria-controls="Stark">Stark</a>
+              <div class="collapse" id="Stark"  role="tabpanel" data-parent="#accordion">
+               <div class="card">
+                <div class ="card-body" id = "projectCard">
+                  <img src="img/Stark-Front.jpg" class ="cardpic">
+                  <img src="img/Stark-Side.jpg" class ="cardpic">
+                    <span>Stark</span> was a collaborative final project for a mechatronics systems design course. The robot was <span>designed to locate a small magnetic cube</span> and place it under an acrylic pyramid. The creation process for Stark included <span>creating solidworks models</span> for fabrication, <span>microcontroller programming</span> to process information obtained from the sensors and to control actuators, and <span> iterative engineering design </span> to ensure it achieves its goal.
+                  </div>
                 </div>
               </div>  
             </li>
-            <li class="list-inline-item">
-              <a class="btn btn-default btn-lg" data-toggle="collapse" href = "#Jarvis" role="button" aria-expanded="false" aria-controls="Jarvis">Jarvis</a>
-              <div class="collapse" id="Jarvis">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            <br>
+            <li>
+              <a class="btn btn-default btn-lg collapsed" data-toggle="collapse" href = "#Jarvis" role="button" aria-expanded="false" aria-controls="Jarvis">Jarvis</a>
+              <div class="collapse" id="Jarvis"  role="tabpanel" data-parent="#accordion">
+               <div class="card">
+                <div class ="card-body" id = "projectCard">
+                  <img src="img/Jarvis-Iso.jpg" class ="cardpic">
+                  <span>Jarvis</span> is a line following robot that uses an <span>arduino microcontroller</span> and was designed to follow various courses set up by the user. Additionally Jarvis has a <span>claw end effector</span> that is used to retrieve a light beacon and place it in the loading zone. 
+                </div>
                 </div>
               </div>  
             </li>
